@@ -1,0 +1,17 @@
+# Xiaomi Mi TV Stick (MiTV-AESP0), Android TV 9, 1 GB de RAM.
+# Removidos so para o usuario 0 (pm uninstall --user 0): reversivel com scripts/restore.sh.
+# Ficaram de fora de proposito: servicos do Google (gms/gsf), teclado, controle remoto,
+# assistente, systemui, webview, YouTube, Play Store e Prime Video (usado pelo botao do controle).
+
+com.netflix.ninja                                   # Netflix
+com.google.android.play.games                       # Google Play Games
+com.google.android.videos                           # Google Play Filmes
+com.google.android.music                            # Google Play Musica (descontinuado)
+com.miui.tv.analytics                               # telemetria da Xiaomi
+com.google.android.tvrecommendations                # motor de recomendacoes da home
+com.google.android.leanbacklauncher                 # launcher antigo, sem uso
+com.google.android.leanbacklauncher.recommendations # recomendacoes do launcher antigo
+com.android.gallery3d                               # galeria
+com.android.camera2                                 # camera (o stick nao tem)
+com.google.android.feedback                         # envio de feedback
+com.google.android.tv.bugreportsender               # envio de relatorios de erro

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Ajustes do launcher (adaptado para o Xiaomi Mi TV Stick, Android 9). Edite e rode build.sh.
+-->
+<resources>
+    <!-- Apps do dock, da esquerda para a direita. Os que nao estiverem instalados sao ignorados. -->
+    <string-array name="dock_apps">
+        <item>com.global.unitviptv</item>
+        <item>com.google.android.youtube.tv</item>
+        <item>tv.pluto.android</item>
+        <item>com.android.vending</item>
+        <item>com.esaba.downloader</item>
+    </string-array>
+
+    <!-- Nunca aparecem como tiles: o launcher antigo e ajudantes do sistema. -->
+    <string-array name="hidden_apps">
+        <item>com.gabriel.cleanhome</item>
+        <item>com.google.android.tvlauncher</item>
+        <item>com.google.android.tv</item>
+        <item>com.droidlogic.BluetoothRemote</item>
+        <!-- So existe para o botao Prime Video do controle, que abre o YouTube no lugar. -->
+        <item>com.amazon.amazonvideo.livingroom</item>
+    </string-array>
+
+    <!-- Tiles por linha na grade de "Todos os apps". -->
+    <integer name="columns">5</integer>
+</resources>

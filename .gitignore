@@ -1,0 +1,18 @@
+# Android SDK baixado pelo scripts/setup-sdk.sh
+.sdk/
+
+# Saida de build e chave de assinatura local (cada um gera a sua)
+launcher/build/
+extras/clean-home-launcher/build/
+debug.keystore
+
+# Coisas da sua maquina / da sua TV
+.tv
+shots/
+backup/
+upstream-tv-home/tools/venv/
+upstream-tv-home/tools/adbkey/
+upstream-tv-home/tools/.tv_host
+
+.DS_Store
+__pycache__/

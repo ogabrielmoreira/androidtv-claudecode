@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Filtra teclas do controle e recebe so a troca de janela do Prime Video (para abrir o YouTube no lugar).
+     Nao le o conteudo da tela. -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/remote_buttons_desc"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:packageNames="com.amazon.amazonvideo.livingroom"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagRequestFilterKeyEvents"
+    android:canRequestFilterKeyEvents="true"
+    android:canRetrieveWindowContent="false"
+    android:notificationTimeout="0" />
