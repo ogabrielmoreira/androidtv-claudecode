@@ -44,11 +44,11 @@ para Android 9, traduzido para português e estendido. O original está preserva
 Precisa de **Git** e de um **JDK 17+** (ex.: [Adoptium Temurin](https://adoptium.net/)).
 
 ```bash
-git clone <url-deste-repositorio>
+git clone https://github.com/ogabrielmoreira/androidtv-claudecode.git
 ```
 
 ```bash
-cd android-tv-gabriel-tech-design
+cd androidtv-claudecode
 ```
 
 Baixe as ferramentas oficiais do Google (adb, build-tools 36.1 e a plataforma Android 9) para `.sdk/`.
